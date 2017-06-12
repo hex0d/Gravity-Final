@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Trab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="include\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Trab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="liballegro-5.0.10-monolith-mt.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Trab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="liballegro-5.0.10-monolith-mt.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Animation.h" />
+		<Unit filename="include/BG.h" />
+		<Unit filename="include/BGSound.h" />
+		<Unit filename="include/CreditScreen.h" />
+		<Unit filename="include/FadeAnimation.h" />
+		<Unit filename="include/FileManager.h" />
+		<Unit filename="include/GOSound.h" />
+		<Unit filename="include/GSod.h" />
+		<Unit filename="include/GameOver.h" />
+		<Unit filename="include/GameOverScreen.h" />
+		<Unit filename="include/GameScreen.h" />
+		<Unit filename="include/GameplayScreen.h" />
+		<Unit filename="include/Includes.h" />
+		<Unit filename="include/InputManager.h" />
+		<Unit filename="include/MenuManager.h" />
+		<Unit filename="include/PPC.h" />
+		<Unit filename="include/Physics.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Projectiles.h" />
+		<Unit filename="include/ScreenManager.h" />
+		<Unit filename="include/Sound.h" />
+		<Unit filename="include/SplashScreen.h" />
+		<Unit filename="include/SpriteSheetAnimation.h" />
+		<Unit filename="include/Timer.h" />
+		<Unit filename="include/TitleScreen.h" />
+		<Unit filename="include/WaitScreen.h" />
+		<Unit filename="include/WinScreen1.h" />
+		<Unit filename="include/WinScreen2.h" />
+		<Unit filename="include/WinScreenEnd.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Animation.cpp" />
+		<Unit filename="src/BG.cpp" />
+		<Unit filename="src/BGSound.cpp" />
+		<Unit filename="src/CreditScreen.cpp" />
+		<Unit filename="src/FadeAnimation.cpp" />
+		<Unit filename="src/FileManager.cpp" />
+		<Unit filename="src/GOSound.cpp" />
+		<Unit filename="src/GSod.cpp" />
+		<Unit filename="src/GameOver.cpp" />
+		<Unit filename="src/GameOverScreen.cpp" />
+		<Unit filename="src/GameScreen.cpp" />
+		<Unit filename="src/GameplayScreen.cpp" />
+		<Unit filename="src/Includes.cpp" />
+		<Unit filename="src/InputManager.cpp" />
+		<Unit filename="src/MenuManager.cpp" />
+		<Unit filename="src/PPC.cpp" />
+		<Unit filename="src/Physics.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Projectiles.cpp" />
+		<Unit filename="src/ScreenManager.cpp" />
+		<Unit filename="src/Sound.cpp" />
+		<Unit filename="src/SplashScreen.cpp" />
+		<Unit filename="src/SpriteSheetAnimation.cpp" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/TitleScreen.cpp" />
+		<Unit filename="src/WaitScreen.cpp" />
+		<Unit filename="src/WinScreen1.cpp" />
+		<Unit filename="src/WinScreen2.cpp" />
+		<Unit filename="src/WinScreenEnd.cpp">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
