@@ -9,3 +9,6 @@ Have fun!!!
 
 
 Intructions:
+The playable game is located in Final Game Exe folder, Just run Trab and enjoy the game.
+
+The source code is avaliable as the rest of the repo, written in C++ using Allegro 5 lib.
